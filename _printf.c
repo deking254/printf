@@ -5,6 +5,8 @@
  * _printf - check code
  * @format: Array of chars
  */
+void print_buffer(char buffer[], int *buff_ind);
+
 int _printf(const char *format, ...)
 {
 int i, printed = 0, printed_chars = 0;
